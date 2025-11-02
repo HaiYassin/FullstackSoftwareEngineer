@@ -1,0 +1,60 @@
+# 📚 Documentation / ドキュメント
+
+## 🌍 Available Languages / Langues disponibles / 利用可能な言語
+
+- [🇬🇧 English](./en/README.md)
+- [🇫🇷 Français](./fr/README.md)
+- [🇯🇵 日本語](./ja/README.md)
+
+---
+
+## 📖 Documentation Index
+
+### Architecture
+- **SOLID Principles** | **Principes SOLID** | **SOLID原則**
+  - [EN](./en/architecture/SOLID.md) | [FR](./fr/architecture/SOLID.md) | [JA](./ja/architecture/SOLID.md)
+  
+- **Design Patterns** | **Patrons de conception** | **デザインパターン**
+  - [EN](./en/architecture/DesignPatterns.md) | [FR](./fr/architecture/DesignPatterns.md) | [JA](./ja/architecture/DesignPatterns.md)
+  
+- **Domain-Driven Design** | **Conception pilotée par le domaine** | **ドメイン駆動設計**
+  - [EN](./en/architecture/DDD.md) | [FR](./fr/architecture/DDD.md) | [JA](./ja/architecture/DDD.md)
+
+### Development / Développement / 開発
+- **Refactoring Best Practices** | **Bonnes pratiques de refactoring** | **リファクタリングのベストプラクティス**
+  - [EN](./en/development/HowToRefactoBestPractices.md) | [FR](./fr/development/HowToRefactoBestPractices.md) | [JA](./ja/development/HowToRefactoBestPractices.md)
+  
+- **Code Review Guide** | **Guide de revue de code** | **コードレビューガイド**
+  - [EN](./en/development/CodeReviewGuide.md) | [FR](./fr/development/CodeReviewGuide.md) | [JA](./ja/development/CodeReviewGuide.md)
+
+### Infrastructure
+- **Docker Guide** | **Guide Docker** | **Dockerガイド**
+  - [EN](./en/infrastructure/Docker.md) | [FR](./fr/infrastructure/Docker.md) | [JA](./ja/infrastructure/Docker.md)
+  
+- **ELK Stack** | **Stack ELK** | **ELKスタック**
+  - [EN](./en/infrastructure/ELK.md) | [FR](./fr/infrastructure/ELK.md) | [JA](./ja/infrastructure/ELK.md)
+
+---
+
+## 🤝 Contributing / Contribuer / 貢献
+
+When adding new documentation, please provide translations in all three languages.
+Lors de l'ajout de nouvelle documentation, veuillez fournir des traductions dans les trois langues.
+新しいドキュメントを追加する際は、3つの言語すべてで翻訳を提供してください。
+
+## 📋 Translation Status / État des traductions / 翻訳状況
+
+| Document | 🇫 FR | 🇬 EN | 🇯 JA |
+|----------|--------|--------|--------|
+| SOLID | ✅ | ⏳ | 🚧 |
+| Design Patterns | ✅ | ⏳ | ⏳ |
+| DDD | ✅ | ⏳ | ⏳ |
+| Refactoring | ✅ | ⏳ | ⏳ |
+| Code Review | ✅ | ⏳ | ⏳ |
+| Docker | ✅ | ⏳ | ⏳ |
+| ELK | ✅ | ⏳ | ⏳ |
+
+Legend / Légende / 凡例:
+- ✅ Complete / Complet / 完了
+- 🚧 In progress / En cours / 進行中
+- ⏳ Planned / Prévu / 予定

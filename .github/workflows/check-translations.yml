@@ -1,0 +1,39 @@
+# .github/workflows/check-translations.yml
+name: Check Translations
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**/*.md'
+
+jobs:
+  check-translations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Check translation completeness
+        run: |
+          echo "Checking translations..."
+          MISSING=0
+          
+          for file in docs/en/**/*.md; do
+            base=${file#docs/en/}
+            
+            if [ ! -f "docs/fr/$base" ]; then
+              echo "❌ Missing FR translation: $base"
+              MISSING=1
+            fi
+            
+            if [ ! -f "docs/ja/$base" ]; then
+              echo "❌ Missing JA translation: $base"
+              MISSING=1
+            fi
+          done
+          
+          if [ $MISSING -eq 1 ]; then
+            echo "⚠️  Some translations are missing"
+            exit 1
+          else
+            echo "✅ All translations present"
+          fi
