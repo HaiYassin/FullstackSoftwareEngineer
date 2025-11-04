@@ -10,7 +10,7 @@ translate-check:
 		[ -f "docs/ja/$${file#docs/en/}" ] && echo "  🇯🇵 ✅" || echo "  🇯🇵 ❌"; \
 	done
 
-# Créer les fichiers manquants avec un template
+# Créer les fichiers manquants avec un template WIP
 translate-sync:
 	@echo "🔄 Creating missing translation files..."
 	@for file in docs/en/**/*.md; do \
