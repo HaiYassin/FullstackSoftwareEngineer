@@ -46,13 +46,19 @@ Lors de l'ajout de nouvelle documentation, veuillez fournir des traductions dans
 
 | Document | 🇫 FR | 🇬 EN | 🇯 JA |
 |----------|--------|--------|--------|
-| SOLID | ✅ | ⏳ | 🚧 |
-| Design Patterns | ✅ | ⏳ | ⏳ |
-| DDD | ✅ | ⏳ | ⏳ |
-| Refactoring | ✅ | ⏳ | ⏳ |
-| Code Review | ✅ | ⏳ | ⏳ |
-| Docker | ✅ | ⏳ | ⏳ |
-| ELK | ✅ | ⏳ | ⏳ |
+| SOLID | ⏳ | ⏳ | 🚧 |
+| Design Patterns | ⏳ | ⏳ | ⏳ |
+| DDD | ✅ | ✅ | 🚧 |
+| Refactoring | 🚧 | 🚧 | 🚧 |
+| Code Review | 🚧 | 🚧 | ⏳ |
+| Docker | ⏳ | ⏳ | ⏳ |
+| ELK | 🚧 | ⏳ | ⏳ |
+| MERN | 🚧 | ⏳ | ⏳ |
+| NextJs | ⏳ | ⏳ | ⏳ |
+| Python | 🚧 | ⏳ | ⏳ |
+| Go | ⏳ | ⏳ | ⏳ |
+| Frankenphp | ⏳ | ⏳ | ⏳ |
+| PHP | ⏳ | ⏳ | ⏳ |
 
 Legend / Légende / 凡例:
 - ✅ Complete / Complet / 完了
