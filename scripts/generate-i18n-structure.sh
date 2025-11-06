@@ -15,7 +15,7 @@ for lang in "${LANGUAGES[@]}"; do
     cat > "docs/$lang/README.md" << EOF
 # Documentation ($lang)
 
-> 🌍 [English](../en/README.md) | [Français](../fr/README.md) | [日本語](../ja/README.md)
+> 🌍 [English](../docs/en/README.md) | [Français](../docs/fr/README.md) | [日本語](../docs/ja/README.md)
 
 ## Table of Contents
 
