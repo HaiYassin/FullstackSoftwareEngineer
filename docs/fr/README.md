@@ -5,3 +5,4 @@
 ## Table of Contents
 
 - [architecture/DDD.md](architecture/DDD.md)
+- [development/CodeReviewGuide.md](development/CodeReviewGuide.md)

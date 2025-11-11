@@ -43,23 +43,24 @@ Lors de l'ajout de nouvelle documentation, veuillez fournir des traductions dans
 
 ## 📋 Translation Status / État des traductions / 翻訳状況
 
-| Document | 🇫🇷 FR | 🇬🇧 EN | 🇯🇵 JA |
-|----------|--------|--------|--------|
-| SOLID | ⏳ | ⏳ | 🚧 |
-| Design Patterns | ⏳ | ⏳ | ⏳ |
-| DDD | ✅ | ✅ | ✅ |
-| Refactoring | 🚧 | 🚧 | 🚧 |
-| Code Review | 🚧 | 🚧 | ⏳ |
-| Docker | ⏳ | ⏳ | ⏳ |
-| ELK | 🚧 | ⏳ | ⏳ |
-| MERN | 🚧 | ⏳ | ⏳ |
-| NextJs | ⏳ | ⏳ | ⏳ |
-| Python | 🚧 | ⏳ | ⏳ |
-| Go | ⏳ | ⏳ | ⏳ |
-| Frankenphp | ⏳ | ⏳ | ⏳ |
-| PHP | ⏳ | ⏳ | ⏳ |
+| Document        | 🇫🇷 FR | 🇬🇧 EN | 🇯🇵 JA |
+| --------------- | ----- | ----- | ----- |
+| SOLID           | ⏳    | ⏳    | 🚧    |
+| Design Patterns | ⏳    | ⏳    | ⏳    |
+| DDD             | ✅    | ✅    | ✅    |
+| Refactoring     | 🚧    | 🚧    | 🚧    |
+| Code Review     | ✅    | 🚧    | ⏳    |
+| Docker          | ⏳    | ⏳    | ⏳    |
+| ELK             | 🚧    | ⏳    | ⏳    |
+| MERN            | 🚧    | ⏳    | ⏳    |
+| NextJs          | ⏳    | ⏳    | ⏳    |
+| Python          | 🚧    | ⏳    | ⏳    |
+| Go              | ⏳    | ⏳    | ⏳    |
+| Frankenphp      | ⏳    | ⏳    | ⏳    |
+| PHP             | ⏳    | ⏳    | ⏳    |
 
 Legend / Légende / 凡例:
+
 - ✅ Complete / Complet / 完了
 - 🚧 In progress / En cours / 進行中
 - ⏳ Planned / Prévu / 予定
